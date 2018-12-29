@@ -21,9 +21,9 @@ YPpi官方文档指定的数据导入方式主要有以下几种
 5. 通过命令行导入
 
 而使用方式主要有两种，第一中是通过界面进行导入已有的文件
-![图片](file:///C:/Users/admin/AppData/Local/Temp/Wiz/306813e3-2e37-4734-a43c-d4b692990ced.png)
+![图片](https://github.com/FeiMin/springmvc-swagger-yapi/blob/master/img/4.png)
 第二种是通过命令导入方式
-![图片2](file:///C:/Users/admin/AppData/Local/Temp/Wiz/e87b3328-f953-41de-b047-a426be96075f.png)
+![图片2](ttps://github.com/FeiMin/springmvc-swagger-yapi/blob/master/img/5.png)
 两种方式均可使用，第一种方式比较适合约定接口后本地生成文件直接上传生成接口信息（***注意此处，页面上传方式存在中文乱码情况，本人使用官方提供的数据测试得出的结果***）。第二种方式不存在中文乱码情况，而且适合自动化部署。
 
 说完YPpi支持的接入后，下一步我们就是要考虑如何生成接口的描述文档。因之前有在使用的swagger作为接口的描述工具，而且恰巧YPpi也支持swagger的导入，自然把swagger文档作为接口文档来生成。在查找相关资料后选择[Yukai Kong](https://github.com/kongchen)的[swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)插件用于生成swagger文档。
