@@ -116,11 +116,11 @@ swagger-maven-plugin
 * swagger-maven-plugin插件生成Springmvc接口文档时需要在controller上有@Api标识，接口路径必须以@RequestMapping描述。
 * YPpi的页面上传swagger文件会有中文乱码
 接口上传后可以在YPpi中进行编辑、mock、和运行了。如下为使用示例
-![tu](file:///C:/Users/admin/AppData/Local/Temp/Wiz/86edbda7-f879-4e10-9735-5d9a4371196b.png)
+![tu](https://github.com/FeiMin/springmvc-swagger-yapi/blob/master/img/1.png)
 mock
-![tu](file:///C:/Users/admin/AppData/Local/Temp/Wiz/8c3accdb-d608-457d-bb46-f362df42a783.png)
+![tu](https://github.com/FeiMin/springmvc-swagger-yapi/blob/master/img/2.png)
 测试
-![tu](file:///C:/Users/admin/AppData/Local/Temp/Wiz/52b79e8e-c4c7-497a-9ad8-8716616dd911.png)
+![tu](https://github.com/FeiMin/springmvc-swagger-yapi/blob/master/img/3.png)
 ## Docker
 
 Openshift部署可以通过执行compile生成swagger文档，然后通过命令行导入的方式将接口同步到YPpi
